@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    font-family: avalon;
+    overflow-x: hidden;
+}
+::-moz-selection{
+    color:white;
+    background:#abd100;
+}
+::selection{
+    color:white;
+    background:#abd100;
+}
+/* my classes start here*/
+
+.myFlexStyle{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+h1{
+    color:#abd100;
+    margin:40px 20px;
+}
+h3{
+    color:#abd100;
+    margin:15px 0px;
+}
+.posRela  { position : relative; }
+.posAbso  { position : absolute; }
+.fullWidth  { width :100%; }
+
+/* my classes end here*/
+
+/* banner styles start here*/
+
+a  { text-decoration : none; }
+li { list-style : none; }
+#home{
+    max-width: 1430px;
+    margin:0 auto 50px;
+}
+.otherPages{
+    max-width: 1430px;
+    margin:0 240px 50px;
+}
+.container>div:not(:first-child) p{font-size: 15px;}
+svg{
+    width:142px;
+    height:28px;
+}
+image{
+    width:142px;
+    height:28px;
+}
+#burger-menu{
+    display:none;
+    cursor:pointer;
+}
+#burger-menu div{
+    width:25px;
+    height:5px;
+    background-color:#abd100;
+    margin:3px 0;
+
+}
+#closeBtn{
+    display:none;
+    cursor:pointer;
+    font-size:40px;
+    color:#abd100;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin-left: 10px;
+}
+.banner{
+    overflow: hidden;
+}
+.banner a{
+    color:#abd100;
+}
+.banner a:hover{
+    color:white;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+.menu{
+    top:0px;
+    padding:30px 220px 0;
+    z-index: 100;
+}
+nav>ul>li{
+    padding: 0 20px;
+}
+.dropBTN{
+    width:150px;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+.dropMenu {
+    background:#abd100;
+    display: none;
+    width:350px;
+    margin-top:15px;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+.dropBTN:hover:after{
+    content:'';
+    position:absolute;
+    right:100px;
+    top:27px;
+    border-bottom:solid 8px #abd100;
+    border-left:solid 8px transparent;
+    border-right:solid 8px transparent;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+    z-index: 2;
+}
+.dropMenu a { 
+    color:white;
+    padding:10px;
+}
+.dropMenu li { padding:10px 0; }
+.dropBTN:hover .dropMenu { display:block;}
+.dropMenu>li:hover { 
+    background-color:white;
+    -webkit-transition:0.5s;
+    -o-transition:0.5s;
+    transition:0.5s; 
+    cursor:pointer;
+}
+.dropMenu li:hover a { color:#abd100;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s; }
+
+/* banner styles end here*/
+
+/* Games-section style start here */
+
+#games-section>div{
+    max-width:440px;
+    margin:0 20px;
+    height:460px;
+}
+
+.gameImg{
+    max-width:100%;
+}
+.button{
+    background:#abd100;
+    color:white;
+    border:none;
+    padding:5px;
+    margin-top:15px;
+    bottom:0;
+    right:0;
+    cursor:pointer;
+}
+button:hover{
+    background-color:#bde40d;
+}
+/* Games-section style end here */
+
+/* about section style start here */
+#about{
+    background:#abd100;
+    color:white;
+    width:100%;
+}
+#about h1{
+    color:white;
+    padding:20px 0;
+}
+#about>div{
+    max-width: 1430px;
+    margin:0 auto 50px;
+}
+#about p{
+    margin:0 20px;
+    line-height:25px;
+    letter-spacing: 1px;
+}
+/*  about section style end here*/
+
+/* footer style start here */
+
+footer{
+    background:#ebebeb;
+    text-align: center;
+}
+footer h2{
+    color:#434343;
+    margin:25px 0;
+}
+footer div{
+    max-width:300px;
+    margin:0 auto 25px;
+    padding:0 20px;
+}
+footer i{
+    font-size:35px;
+    overflow: hidden;
+    color:#7b7b7b;
+    cursor:pointer;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+footer i:hover{
+    color:#434343;
+}
+
+/* footer style end here */
+
+/* pageTitle style start here */
+
+.pageTitle{
+    bottom:0;
+    max-width: 1430px;
+    margin:0 0 0 220px;
+}
+.pageTitle h1{
+    font-size:50px;
+    font-weight: 500;
+    letter-spacing: 2px
+}
+.pageTitle span{
+    color:white;
+    margin-left:20px;
+    font-size:12px;
+}
+.pageTitle span a{
+    color:white;
+}
+.pageTitle span a:nth-child(1){
+    margin-right:20px
+}
+.pageTitle span a:nth-child(2){
+    margin-left:20px
+}
+
+/* pageTitle style end here */
+
+/* otherPages style start here */
+.otherPages p{
+    margin:20px 0;
+    letter-spacing: 1px;
+    line-height: 22px
+}
+.otherPages a{
+    color:#abd100;
+}
+.otherPages h2{
+    color:#abd100;
+}
+
+
+/* otherPages style end here */
+
+/* gameplay style start here */
+
+#gamePlay img{
+    float:right;
+    width:400px;
+}
+
+/* gameplay style end here */
+table{
+    border-collapse: collapse;
+    font-size:12px;
+}
+td,th{
+    padding:12px;
+    border:1px solid black;
+}
+th{
+    background:#abd100;
+    color:white;
+}
+.eSportG tr:not(:first-child) td:not(:first-child){
+    text-align: center
+}
+.table-marg{
+    margin: 0 20px 20px 0;
+    width:70%;
+}
+.eSportG{
+    width:100%;
+}
+.eSpoImg{
+    width:100%;
+    max-width:400px;
+    height:auto;
+}
+#portalTable tr:nth-child(2) th,#portalTable tr:nth-child(5) th{
+    background:#d5e87f;
+    color:black;
+}
+#portalTable{
+    width:100%;
+    text-align: center;
+    margin:20px 0;
+    table-layout: fixed;
+}
+.textDiv{
+    width:50%;
+}
+.tableDiv{
+    width:50%;
+    margin-left:25px;
+}
+.hovering{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1450px) {
+    #home{
+        max-width: 1230px;
+        margin:0 auto 50px;
+    }
+    .otherPages{
+        margin:0 100px 50px; 
+    }
+    .menu{
+        padding:30px 100px 0;
+    }
+    #games-section>div {
+        height: 420px;
+    }
+    #about>div{
+        max-width: 1230px;
+        margin:0 auto 50px;
+    }
+    .pageTitle{
+        margin:0 0 0 100px;
+    }
+    .pageTitle h1{
+        font-size:40px;
+    }
+    #gamePlay img{
+        width:350px;
+    }
+
+}
+@media only screen and (max-width:1250px){
+    #third-part{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .eSpoImg{
+        width:100%;
+        max-width: 100%;
+        margin:20px 0;
+    }
+    .eSportG{
+        width:100%;
+        
+    }
+    .table-marg{
+        margin-right:0px;
+        -webkit-box-ordinal-group:2;
+            -ms-flex-order:1;
+                order:1;
+        width:100%;
+    }
+    .textDiv{
+        width:100%;
+    }
+    .tableDiv{
+        width:100%;
+        margin-left:0;
+    }
+}
+@media only screen and (max-width:1000px){ 
+    .container>div:nth-child(2){
+        max-width: 960px;
+    }
+    .menu{
+        padding:30px 50px 0;
+    }
+    #games-section>div {
+        height: 400px;
+        margin: 0;
+    }
+    #games-section>div:nth-child(2) {
+        margin:0 10px;
+    }
+    #games-section{
+        margin:0 20px
+    }
+    .pageTitle{
+        margin:0 0 0 50px;
+    }
+    .pageTitle h1{
+        font-size:30px;
+    }
+    .otherPages{
+        margin: 0 70px;
+    }
+    #gamePlay img{
+        width:300px;
+    }
+
+}
+@media only screen and (max-width:700px)  { 
+    /* banner styles start here*/
+    .posFix{
+        position:fixed;
+    }
+    .menu{
+        padding:5px 10px 5px;
+        background:black;
+    }
+    .opened{
+        width:250px;
+    }
+    .closed{
+        width:0px;
+    }
+    #burger-menu{
+        display:block;
+    }
+    .displayToggle{
+        display:none;
+    }
+    .myFlexDrect{
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
+    }
+    nav{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: black;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        padding-top: 60px;       
+    }
+    nav>ul>li{
+        padding: 10px 15px;
+    }
+    #closeBtn{
+        display:block;
+    }
+    .dropBTN:hover:after{
+        border-bottom:solid 0px #abd100;
+    }
+    .dropMenu {
+        width:100%;
+    }
+    .dropBTN{
+        width:100%;
+    }
+    .image-banner{
+        margin-top:36px;
+    }
+    svg{
+        width:80px;
+        height:16px;
+        margin-top:6px;
+    }
+    image{
+        width:80px;
+        height:16px;
+    }
+    h1{
+        color:#abd100;
+        margin:20px 20px;
+    }
+    #games-section>div {
+        height: 520px;
+        max-width: 100%;
+        margin-bottom:50px;
+    }
+    #games-section>div:nth-child(2) {
+        margin:0 0 50px;
+    }
+    footer i{
+        font-size:25px;
+        overflow: hidden;
+        color:#7b7b7b;
+    }
+    .pageTitle{
+        margin:0 0 0 10px;
+    }
+    .otherPages{
+        margin: 0 30px;
+    }
+    #gamePlay img{
+        width:100%;
+        float:none;
+        margin:10px 0;
+    }
+    td,th{
+        padding:8px;
+    }
+}
+@media only screen and (max-width:500px)  {
+    #games-section>div {
+        height: 420px;
+        max-width: 100%;
+        margin-bottom:30px;
+    }
+    #games-section>div:nth-child(2) {
+        margin:0 0 30px;
+    }
+    .pageTitle h1{
+        font-size:20px;
+        margin:5px 10px 20px;
+    }
+    .pageTitle span{
+        font-size:10px;
+        margin-left:10px
+    }
+    .otherPages{
+        margin: 0 20px;
+    }
+    td,th{
+        padding:2px;
+        border:1px solid black;
+    }
+}
+/* media Query end here */

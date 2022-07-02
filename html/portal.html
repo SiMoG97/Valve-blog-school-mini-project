@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="../images/valve.png">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+        <title>Portal</title>
+    </head>
+    <body>
+        <div class="container fullWidth">
+            <header>
+                <div class='banner posRela'>
+                    <img src="../images/portalBanner.jpg" alt="banner image " class="image-banner fullWidth" draggable="false" style="z-index: 0">
+                    <div class="myFlexStyle posAbso fullWidth menu posFix">
+                        <div>
+                            <a href="../index.html">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    >
+                                    <image width="142px" height="28px" x="0px" y="0px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAACOCAMAAABwg0BJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC7lBMVEUAAAC75QC84wG75QC75QC75QC75QC95AK64wC75QC75QC75QC75QC75QC74gG55AG75QDHsDG61hC54gC84wG64wC84wK+4gS91wq75AG+4gS+4ga75QDBxjXD4Am75QC85QC75QC5zBq75QC75QD/AAC75QC/4QO64wC85QC75QC75QC/0hy75QC85QC53QS75QC84wK74gG+4gbC3wi+4gS64QG75QC65AC94gG75QC75QC94gG54QDffTS75QC75QC7zhzD4Am75QC41BC44wC75QC+4gS74gH/gIC75QC75QC8mDS75QDHsDG85QC75QC74gHF1R+85QC84wG94QW65AC75QC94QW+4gS75QC74gG55AG54gC75QC75QC32gW84wK75QC75QDHsDG54QDToka75QC75QC75QC74gG44AC74gG85QC94QW55QC75QC+4gS95AK75QDF1R+84wK74gG75QC55AG85QC54gC54gC64wC75QC54gC54gC64gC+4gS75QC94QW75QC94QW54gC8zxy53gS64wC6sTe75QCxszC84wLBvjO+4gS75QDvaTa2vC+75QC5sDXC3wm+4gS75QC75QC54gC75QC75QC74gG74QK84gO75QCusS3sWi675QC74gG+4gS75QC75QC95AK65AC54gC75QC54gC65AC85QC85QC75QC+4gS54gC54wC64QG54gC85QC75QC64wG64wC44AC84wG54gC55QC85QC54gC85QC85QC74gG64wC24QDBvzS74gHA4gS95AK75QC54gC75QC65AC+4gS84gO71wq94QW75QC64wC75QC75QC74gG54gC64wC93Qe74gG85gC74gHToka85QC75QC85QC75QC75QC+4gS54gC85QC54gC74gG74gG4vTC75QC74gG55QC55AG74gG+2gq95AK55AG75QC74gG95AK95AK54QC75QC54gC74gG75QD///83TmF7AAAA+HRSTlMA3+/d8OLe7uj26efm9bJt9wg0Vyq6XoQkKYBDtAosvYH8E+DS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" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div id="burger-menu">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <nav class="displayToggle">
+                            <div id="closeBtn">&times;</div>
+                            <ul class="myFlexStyle myFlexDrect">
+                                <li style="margin-right:15px;"><a href="../index.html">HOME</a></li>
+                                <li class="dropBTN posRela">
+                                    <a class="hovering">OUR GAMES</a>
+                                    <ul class="dropMenu ">
+                                        <li><a href="./counter-strike.html">Counter-Strike</a></li>
+                                        <li><a href="./portal.html">Portal</a></li>
+                                        <li><a href="./dota.html">Dota</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../index.html">ABOUT US</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="pageTitle posAbso">
+                        <span><a href="../index.html">Home</a> > <a href="portal.html">Portal</a></span>
+                        <h1>PORTAL</h1>
+                    </div> 
+                </div>
+            </header>
+            <div class="otherPages">
+                <div>
+                    <p>
+                            Portal is a puzzle-platform video game developed and published by Valve Corporation. It was released 
+                            in a bundle package called The Orange Box for Microsoft Windows, Xbox 360 and PlayStation 3 in 2007. 
+                            The game has since been ported to other systems, including OS X, Linux, and Android. <br><br>
+
+                            Portal consists primarily of a series of puzzles that must be solved by teleporting the player's 
+                            character and simple objects using "the Aperture Science Handheld Portal Device", a device that 
+                            can create inter-spatial portals between two flat planes. The player-character, Chell, is challenged 
+                            and taunted by an artificial intelligence named GLaDOS (Genetic Lifeform and Disk Operating System) 
+                            to complete each puzzle in the Aperture Science Enrichment Center using the portal gun with the promise 
+                            of receiving cake when all the puzzles are completed. The game's unique physics allows kinetic energy 
+                            to be retained through portals, requiring creative use of portals to maneuver through the test chambers. 
+                            This gameplay element is based on a similar concept from the game Narbacular Drop; many of the team members 
+                            from the DigiPen Institute of Technology who worked on Narbacular Drop were hired by Valve for the creation 
+                            of Portal, making it a spiritual successor to the game. <br><br>
+
+                            Portal was acclaimed as one of the most original games of 2007, despite criticisms of its short 
+                            duration and limited story. The game received praise for its originality, unique gameplay and dark 
+                            story with a humorous series of dialogue. GLaDOS, voiced by Ellen McLain in the English-language 
+                            version, received acclaim for her unique characterization, and the end credits song "Still Alive", 
+                            written by Jonathan Coulton for the game, was acclaimed for its original composition and humorous twist. 
+                            Excluding Steam download sales, over four million copies of the game have been sold since its release, 
+                            spawning official merchandise from Valve including plush Companion Cubes, as well as fan recreations of 
+                            the cake and portal gun, a standalone version, titled Portal: Still Alive, on the Xbox Live Arcade service 
+                            in October 2008, which added an additional 14 puzzles to the gameplay, and a sequel, Portal 2, which was released 
+                            in 2011, adding several new gameplay mechanics and a cooperative multiplayer mode. <br><br>
+                    </p>
+                </div>
+                <div id="gamePlay">
+                    <h2>Gameplay</h2>
+                    <div >
+                        <p>
+                            <img src="../images/portalGameplay.jpg" alt="Dota image">
+                            In Portal, the player controls the protagonist, Chell, from a first-person perspective as she is challenged to navigate 
+                            through a series of rooms using the Aperture Science Handheld Portal Device, or portal gun, under the watchful supervision 
+                            of the artificial intelligence GLaDOS. The portal gun can create two distinct portal ends, orange and blue. The portals 
+                            create a visual and physical connection between two different locations in three-dimensional space. Neither end is specifically 
+                            an entrance or exit; all objects that travel through one portal will exit through the other. An important aspect of the game's 
+                            physics is momentum redirection. As moving objects pass through portals, they come through the exit portal at the same direction 
+                            that the exit portal is facing and with the same speed with which they passed through the entrance portal. For example, a common 
+                            maneuver is to jump down to a portal on the floor and emerge through a wall, flying over a gap or another obstacle. This allows the 
+                            player to launch objects or Chell over great distances, both vertically and horizontally, referred to as 'flinging' by Valve.[5] As 
+                            GLaDOS puts it, "In layman's terms: speedy thing goes in, speedy thing comes out." If portal ends are not on parallel planes, the 
+                            character passing through is reoriented to be upright with respect to gravity after leaving a portal end. <a href="https://en.wikipedia.org/wiki/Portal_(video_game)">(More Informations)</a>
+                        </p>
+                    </div>
+                </div>
+                <div >
+                        <h2>Critical reception</h2>
+                    <div class="myFlexStyle"  id="third-part">
+                        <div class="textDiv">
+                            <p>TPortal received critical acclaim, often earning more praise than either Half-Life 2: Episode Two or Team Fortress 2, two 
+                                titles also included in The Orange Box. It was praised for its unique gameplay and dark, deadpan humor. Eurogamer 
+                                cited that "the way the game progresses from being a simple set of perfunctory tasks to a full-on part of the Half-Life 
+                                story is absolute genius", while GameSpy noted, "What Portal lacks in length, it more than makes up for in exhilaration."
+                                The game was criticized for sparse environments, and both criticized and praised for its short length. Aggregate reviews for 
+                                the stand-alone PC version of Portal gave the game a 90/100 through 28 reviews on Metacritic.In 2011, Valve stated that Portal 
+                                had sold more than four million copies through the retail versions, including the standalone game and The Orange Box, and from 
+                                the Xbox Live Arcade version.he game generated a fan following for the Weighted Companion Cube even though the cube itself 
+                                does not talk or act in the game. Fans have created plush and papercraft versions of the cube and the various turrets,[81] 
+                                as well as PC case mods and models of the Portal cake and portal gun. Jeep Barnett, a programmer for Portal, 
+                                noted that players have told Valve that they had found it more emotional to incinerate the Weighted Companion Cube than to harm 
+                                one of the "Little Sisters" from BioShock. Both GLaDOS and the Weighted Companion Cube were nominated for the Best New Character 
+                                Award on G4, with GLaDOS winning the award for "having lines that will be quoted by gamers for years to come.<a href="https://en.wikipedia.org/wiki/Portal_(video_game)">(More Informations)</a>
+                            </p>
+                        </div>
+                        <div class="tableDiv">
+                            <table id="portalTable">
+                                <tr>
+                                    <th colspan="2">Aggregate score</th>
+                                </tr>
+                                <tr>
+                                    <th>Aggregate score</th>
+                                    <th>Score</th>
+                                </tr>
+                                <tr>
+                                    <td>Metacritic</td>
+                                    <td>90/100</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">Review scores</th>
+                                </tr>
+                                <tr>
+                                    <th>Publication</th>
+                                    <th>Score</th>
+                                </tr>
+                                <tr>
+                                    <td>1UP.com</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>Eurogamer</td>
+                                    <td>9/10</td>
+                                </tr>
+                                <tr>
+                                    <td>GameSpot</td>
+                                    <td>9.0/10</td>
+                                </tr>
+                                <tr>
+                                    <td>GameSpy</td>
+                                    <td>4.5/5.0</td>
+                                </tr>
+                                <tr>
+                                    <td>IGN</td>
+                                    <td>8.2/10</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="margin:50px 0 ;">
+                        <span style="font-weight: 900; font-size:15px;">See also : <a href="./counter-strike.html">Counter-Strike</a> | <a href="./dota.html"> Dota</a></span>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div>
+                    <h2>Follow Us</h2>
+                    <div class="myFlexStyle">
+                        <a href="https://www.google.com/?gws_rd=ssl.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.linkedin.com/in/simo-echaarani-01443b174/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/simo_echaarani/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/SiMoG97" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a href="https://twitter.com/EchaaraniM" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </footer> 
+        </div>
+        <script src="../script/sript.js"></script>
+    </body>
+</html>
